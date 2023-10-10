@@ -19,3 +19,15 @@ For Specific Branch: git clone --single-branch --branch <branch name> <project u
 6. Crate database in phpmyadmin 
 7. php artisan migrate
 8. php artisan serve
+
+#CRUD
+1. composer create-project laravel/laravel CRUD
+2. create a database: http://localhost/phpmyadmin
+3. edit .env file
+4. php artisan make:controller StudentController -r
+5. php artisan make:model Student -mfs --requests
+6. edit migration file
+7. php artisan migrate
+8. call StudentController in web.php
+9. create index, create, view, edit blade file
+10. Complite StudentController functions.
